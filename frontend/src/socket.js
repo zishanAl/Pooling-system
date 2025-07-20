@@ -1,6 +1,6 @@
 // frontend/src/socket.js
 import { io } from 'socket.io-client';
 
-const socket = io('https://live-polling-system-59mk.onrender.com');
+const socket = io('https://pooling-system-86lr.onrender.com');
 
 export default socket;

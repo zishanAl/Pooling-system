@@ -29,7 +29,7 @@ const TeacherLanding = ({ onPollCreated }) => {
     const filteredOptions = options.filter(opt => opt.trim() !== '');
     if (!question.trim() || filteredOptions.length < 2) return;
 
-    const response = await axios.post('https://live-polling-system-59mk.onrender.com/api/polls', {
+    const response = await axios.post('https://pooling-system-86lr.onrender.com/api/polls', {
       question,
       options: filteredOptions,
       duration,
