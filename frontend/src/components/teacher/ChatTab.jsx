@@ -9,7 +9,7 @@ const ChatTab = ({ pollId, sender = 'teacher' }) => {
   useEffect(() => {
     if (!pollId) return;
 
-    fetch(`https://live-polling-system-59mk.onrender.com/api/messages/${pollId}`)
+    fetch(`https://pooling-system-86lr.onrender.com/api/messages/${pollId}`)
       .then((res) => res.json())
       .then((data) => {
         if (Array.isArray(data)) setMessages(data);

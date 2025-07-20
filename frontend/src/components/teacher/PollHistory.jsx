@@ -4,7 +4,7 @@ const PollHistory = () => {
   const [polls, setPolls] = useState([]);
 
   useEffect(() => {
-    fetch('https://live-polling-system-59mk.onrender.com/api/polls/all')
+    fetch('https://pooling-system-86lr.onrender.com/api/polls/all')
       .then((res) => res.json())
       .then((data) => setPolls(data))
       .catch((err) => console.error('Failed to fetch history:', err));

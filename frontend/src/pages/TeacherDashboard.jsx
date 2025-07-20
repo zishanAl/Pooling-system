@@ -6,7 +6,7 @@ import FloatingChat from "../components/teacher/FloatingChat";
 import io from "socket.io-client";
 import { BsEye } from "react-icons/bs";
 
-const socket = io("https://live-polling-system-59mk.onrender.com");
+const socket = io("https://pooling-system-86lr.onrender.com");
 
 const TeacherDashboard = () => {
   const [poll, setPoll] = useState(null);
